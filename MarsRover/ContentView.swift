@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var rover = Rover(x: 0, y: 0, direction: .north, grid: Grid(width: 10, height: 10, obstacles: [(4,3),(1,1)]),movement: [])
+    @StateObject var rover = Rover(x: 0, y: 0, direction: .north, grid: Grid(width: 10, height: 10, obstacles: [(2,2),(3,5)]),movement: [])
     
     @State var showAlert = false
     var body: some View {
