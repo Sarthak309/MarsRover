@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141FCB752AB5DC5A00AACE57 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141FCB742AB5DC5A00AACE57 /* SetupView.swift */; };
 		142C5A8C2AB4801C008B0AE7 /* MarsRoverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142C5A8B2AB4801C008B0AE7 /* MarsRoverApp.swift */; };
 		142C5A8E2AB4801C008B0AE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142C5A8D2AB4801C008B0AE7 /* ContentView.swift */; };
 		142C5A902AB4801E008B0AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142C5A8F2AB4801E008B0AE7 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		141FCB742AB5DC5A00AACE57 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
 		142C5A882AB4801C008B0AE7 /* MarsRover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsRover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		142C5A8B2AB4801C008B0AE7 /* MarsRoverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverApp.swift; sourceTree = "<group>"; };
 		142C5A8D2AB4801C008B0AE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				142C5A8B2AB4801C008B0AE7 /* MarsRoverApp.swift */,
 				142C5A8D2AB4801C008B0AE7 /* ContentView.swift */,
 				142C5A992AB48051008B0AE7 /* Direction.swift */,
+				141FCB742AB5DC5A00AACE57 /* SetupView.swift */,
 				142C5A9D2AB480DB008B0AE7 /* Rover.swift */,
 				142C5A9B2AB480AC008B0AE7 /* Grid.swift */,
 				142C5A8F2AB4801E008B0AE7 /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 				142C5A8E2AB4801C008B0AE7 /* ContentView.swift in Sources */,
 				142C5A8C2AB4801C008B0AE7 /* MarsRoverApp.swift in Sources */,
 				142C5A9A2AB48051008B0AE7 /* Direction.swift in Sources */,
+				141FCB752AB5DC5A00AACE57 /* SetupView.swift in Sources */,
 				142C5A9C2AB480AC008B0AE7 /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

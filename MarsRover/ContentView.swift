@@ -1,8 +1,9 @@
 import SwiftUI
+var moving = false
 
 struct ContentView: View {
     @StateObject var rover = Rover(x: 0, y: 0, direction: .north, grid: Grid(width: 10, height: 10, obstacles: [(2,2),(3,5)]),movement: [])
-    
+        
     @State var showAlert = false
     var body: some View {
         VStack {
@@ -22,7 +23,12 @@ struct ContentView: View {
             Text("Movements: \(rover.movement.joined(separator: ", "))")
                 .padding(.vertical,10)
             Divider()
-            VStack(spacing: 10) {
+            HStack(spacing: 10) {
+                Button(action: {
+                    rover.turnLeft()
+                }) {
+                    Text("Turn Left")
+                }
                 Button(action: {
                     if !rover.moveForward(){
                         self.showAlert  = true
@@ -34,18 +40,33 @@ struct ContentView: View {
                     Alert(title: Text("Cannot Move"), message: Text("The rover cannot move forward because either there is an obstacle in the way or the rover is about to exit the grid."), dismissButton: .default(Text("OK")))
                 }
                 Button(action: {
-                    rover.turnLeft()
-                }) {
-                    Text("Turn Left")
-                }
-                Button(action: {
                     rover.turnRight()
                 }) {
                     Text("Turn Right")
                 }
             }
+            .padding(.top,10)
         }
         .edgesIgnoringSafeArea(.top)
+        .onAppear {
+            while(!rover.movement.isEmpty && moving){
+                for move in rover.movement{
+                    switch move{
+                    case "M":
+                        rover.moveForward()
+                    case "L":
+                        rover.turnLeft()
+                    case "R":
+                        rover.turnRight()
+                    default:
+                        break
+                    }
+                    
+                }
+                moving = false
+                rover.movement.removeAll()
+            }
+        }
     }
 }
 
