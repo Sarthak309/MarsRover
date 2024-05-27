@@ -15,10 +15,9 @@ Mars Rover is a rover simulator application that allows users to navigate a virt
 
 ## Working of the App
 
-<video width="640" height="360" controls>
-  <source src="images/video.mp4" type="video/quicktime">
-  Your browser does not support the video tag.
-</video>
+https://github.com/Sarthak309/MarsRover/assets/103929885/51e369a7-4561-4941-b906-37f68cab15e2
+
+
 
 
 ## Features
