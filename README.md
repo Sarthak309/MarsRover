@@ -5,12 +5,12 @@ Mars Rover is a rover simulator application that allows users to navigate a virt
 ## Screenshots
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-    <img src="images/1.png" alt="Screenshot 1" width="300"/>
-    <img src="images/2.png" alt="Screenshot 2" width="300"/>
-    <img src="images/3.png" alt="Screenshot 3" width="300"/>
-    <img src="images/4.png" alt="Screenshot 4" width="300"/>
-    <img src="images/5.png" alt="Screenshot 5" width="300"/>
-    <img src="images/6.png" alt="Screenshot 6" width="300"/>
+    <img src="images/1.png" alt="Screenshot 1" width="200"/>
+    <img src="images/2.png" alt="Screenshot 2" width="200"/>
+    <img src="images/3.png" alt="Screenshot 3" width="200"/>
+    <img src="images/4.png" alt="Screenshot 4" width="200"/>
+    <img src="images/5.png" alt="Screenshot 5" width="200"/>
+    <img src="images/6.png" alt="Screenshot 6" width="200"/>
 </div>
 
 ## Working of the App
