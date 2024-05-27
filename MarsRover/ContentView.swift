@@ -53,7 +53,7 @@ struct ContentView: View {
                 for move in rover.movement{
                     switch move{
                     case "M":
-                        rover.moveForward()
+                        if rover.moveForward(){}
                     case "L":
                         rover.turnLeft()
                     case "R":
@@ -61,10 +61,10 @@ struct ContentView: View {
                     default:
                         break
                     }
+                    rover.movement.removeFirst(1)
                     
                 }
                 moving = false
-                rover.movement.removeAll()
             }
         }
     }
