@@ -38,12 +38,8 @@ https://github.com/Sarthak309/MarsRover/assets/103929885/51e369a7-4561-4941-b906
     open MarsRover.xcodeproj
     ```
 
-3. Install dependencies using CocoaPods (if applicable):
-    ```sh
-    pod install
-    ```
 
-4. Build and run the app on your simulator or device.
+3. Build and run the app on your simulator or device.
 
 ## Usage
 
